@@ -19,9 +19,74 @@
     /* margin-right: 10px; */
   }
   
-  .purple { background-color: purple; }
-  .blue { background-color: blue; }
-  .red { background-color: red; }
-  .orange { background-color: orange; }
-  .green { background-color: green; }
-  .yellow { background-color: yellow; }
+.loginTRM{
+    color:  #585858;
+
+}
+
+.wp{
+    color: #AFB0B1
+}
+
+/* src/components/InputField.css */
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    border:none;
+  }
+  
+  .input-label {
+    font-size: 0.9rem;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 8px; */
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .input-field {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .input-field::placeholder {
+    color: #bbb;
+  }
+  
+  .input-icon {
+    margin-left: 8px;
+    color: #bbb;
+    font-size: 1.2rem;
+  }
+  
+  .sideA{
+    background-color: #FFFBF6;
+  }
+
+  .reset{
+    color: #7F8B94
+  }
+
+  .sideB{
+        background-image: url('../src/assets/Images/Mask\ Group.png'); /* Adjust the path to your image */
+        background-size: cover; /* Cover the entire area */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent tiling */
+        height: 100vh; /* Full viewport height */
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+  }
