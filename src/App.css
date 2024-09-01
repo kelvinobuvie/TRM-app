@@ -82,11 +82,14 @@
 
   .sideB{
         background-image: url('../src/assets/Images/Mask\ Group.png'); /* Adjust the path to your image */
-        background-size: cover; /* Cover the entire area */
-        background-position: center; /* Center the image */
+        background-size: cover;
+        /* background-position: center; Center the image */
         background-repeat: no-repeat; /* Prevent tiling */
-        height: 100vh; /* Full viewport height */
-        display: flex; /* Use flexbox for layout */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
+        /* height: 100vh; /* Full viewport height */
+        /* display: flex; Use flexbox for layout */ 
+        /* justify-content: center; Center horizontally */
+        /* align-items: center; Center vertically */
+  }
+  .loginb{
+    color:#585858
   }
