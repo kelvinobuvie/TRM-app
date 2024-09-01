@@ -1,0 +1,27 @@
+.sidebar{
+    background-color: #1A2129;
+    ;
+}
+
+.nav{
+    border-bottom: solid 1px #EEEEEE;
+}
+
+.notify{
+    color: #4b5563;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* z-index: 10; */
+    /* margin-right: 10px; */
+  }
+  
+  .purple { background-color: purple; }
+  .blue { background-color: blue; }
+  .red { background-color: red; }
+  .orange { background-color: orange; }
+  .green { background-color: green; }
+  .yellow { background-color: yellow; }
