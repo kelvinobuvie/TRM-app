@@ -83,7 +83,7 @@
   .sideB{
         background-image: url('../src/assets/Images/Mask\ Group.png'); /* Adjust the path to your image */
         background-size: cover;
-        /* background-position: center; Center the image */
+        background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Prevent tiling */
         /* height: 100vh; /* Full viewport height */
         /* display: flex; Use flexbox for layout */ 
@@ -92,4 +92,19 @@
   }
   .loginb{
     color:#585858
+  }
+
+  .custom-button {
+    background-color: #ff7400; /* Orange background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding */
+    font-size: 18px; /* Font size */
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .custom-button:hover {
+    background-color: #ff8c00; /* Slightly darker orange on hover */
   }

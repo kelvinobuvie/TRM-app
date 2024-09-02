@@ -4,20 +4,21 @@ import Input from '../components/Input';
 import { LuUser2 } from 'react-icons/lu';
 import { GoLock } from "react-icons/go";
 import { GiHelp } from "react-icons/gi";
+import Loginbutton from '../components/Loginbutton';
 
 const Login = () => {
   return (
-    <div className='flex w-full bg-orange-400 box-content'>
-       <div className="sideA  w-1/2 h-full bg-white pt-10 px-20 pb-24 justify-self-center">
-            <div className=''>
-                <div> 
-                  <img src={Signin} alt="ndnddj w-3 h-3"/>
+    <div className='flex w-full bg-orange-400 box-content justify-center'>
+       <div className="sideA  w-1/2 h-full bg-white pt-10 px-32 pb-24 justify-self-center items-center max-lg:hidden">
+            <div className='flex flex-col justify-center'>
+                <div className=""> 
+                  <img className='' src={Signin} alt=""/>
                 </div>
-                <div className='mt-[70px]'>
+                <div className='mt-5'>
                   <span className='loginTRM text-4xl font-semibold'>TRM Dashboard</span>
-                  <p className=' wp mt-2 '>Welcome. Login to your account</p>
+                  <p className='text-sm wp mt-2 '>Welcome. Login to your account</p>
                 </div>
-                <div className="form mt-[80px]">
+                <div className="form mt-3">
                 <Input
                   type='text'
                   label="Login ID"
@@ -31,13 +32,44 @@ const Login = () => {
                   icon={<GoLock />}
                  />
                 </div>
-                <div className='reset flex justify-between px-[34px] text-xs w-[478px]'>
+                <div className='reset flex justify-between px-[34px] text-xs w-[400px]'>
                   <a href=''>Keep me logged in</a>
                   <a href=''>Forgort password</a>
-            </div>
+                </div>
+                <Loginbutton text="Login"/>
             </div>   
        </div>
-       <div className="sideB w-1/2 h-full">
+       <div className="sideA w-full h-full bg-white pt-10  mb-24 flex-col justify-center hidden max-lg:block fixed">
+            <div className='flex flex-col justify-center items-center'>
+                <div> 
+                  <img  className ="w-20 h-20" src={Signin} alt=""/>
+                </div>
+                <div className='mt-2'>
+                  <span className='loginTRM text-3xl font-semibold'>TRM Dashboard</span>
+                  <p className='text-sm wp mt-2 '>Welcome. Login to your account</p>
+                </div>
+                <div className="form mt-3">
+                <Input
+                  type='text'
+                  label="Login ID"
+                  placeholder="Enter your login ID"
+                  icon={<LuUser2/>}
+                 />
+                 <Input
+                  type='password'
+                  label="password"
+                  placeholder="Enter your password"
+                  icon={<GoLock />}
+                 />
+                </div>
+                <div className='reset flex justify-between px-[34px] text-xs w-[400px]'>
+                  <a href=''>Keep me logged in</a>
+                  <a href=''>Forgort password</a>
+                </div>
+                <Loginbutton text="Login"/>
+            </div>   
+       </div>
+       <div className="sideB w-1/2 h-full max-lg:hidden">
        <div className='flex flex-col justify-between items-center  h-full py-[39px]'>
         	<div className='flex text-white mr-[51px] text-lg text-bold gap-1 self-end'>
               <a href="" className='font-semibold'>
