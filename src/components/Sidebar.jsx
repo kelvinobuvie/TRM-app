@@ -7,9 +7,9 @@ import { BiBarChartAlt2 } from 'react-icons/bi';
 import { PiNotePencil } from 'react-icons/pi';
 import { CgNotes } from 'react-icons/cg';
 import { GoDotFill } from 'react-icons/go';
-import Overview from '../pages/Overview';
-import Inspections from '../pages/Inspections';
-import { Link } from 'react-router-dom'
+// import Overview from '../pages/Overview';
+// import Inspections from '../pages/Inspections';
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -25,35 +25,35 @@ const Sidebar = () => {
         </div>
         <div>
         <ul className='mt-3 text-white '>
-            <li to="" className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <Link to="/" className='px-3'>
+            <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
+                <NavLink to="/overview" className='px-3'>
                     <BiBarChartAlt2 className='inline-block w-5 h-6 mr-3 -mt-1'></BiBarChartAlt2>
                     Overview
-                </Link>
+                </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <Link to="/Inspections" className='px-3'>
+                <NavLink to="/inspections" className='px-3'>
                     <FaTableList className='inline-block w-5 h-6 mr-3 -mt-1'></FaTableList>
                     Inspections
-                </Link>
+                </NavLink>
             </li>
             <li className='mb-3 text-sm hover:text-orange-500 py-2'>
-                <a href="" className='px-3'>
+                <NavLink to="" className='px-3'>
                     <MdGroups className='inline-block w-5 h-6 mr-3 -mt-1'></MdGroups>
                     Personal
-                </a>
+                </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <a href="" className='px-3'>
+                <NavLink to="" className='px-3'>
                     <PiNotePencil className='inline-block w-5 h-6 mr-3 -mt-1'></PiNotePencil>
                     Workshop
-                </a>
+                </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <a href="" className='px-3'>
+                <NavLink to="" className='px-3'>
                     <CgNotes className='inline-block w-5 h-6 mr-3 -mt-1'></CgNotes>
                     Report
-                </a>
+                </NavLink>
             </li>
         </ul>
         </div>

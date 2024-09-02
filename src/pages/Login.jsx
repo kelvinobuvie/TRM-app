@@ -1,15 +1,23 @@
 import React from 'react';
-import {Group, Signin} from "../assets/Images"
+import { useNavigate } from 'react-router-dom';
+// import {Group, Signin} from "../assets/Images"
 import Input from '../components/Input';
 import { LuUser2 } from 'react-icons/lu';
 import { GoLock } from "react-icons/go";
 import { GiHelp } from "react-icons/gi";
-import Loginbutton from '../components/Loginbutton';
+// import Loginbutton from '../components/Loginbutton';
 
 const Login = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    navigate('/overview')
+  }
+
+
   return (
     <div className='flex w-full bg-orange-400 box-content justify-center'>
-       <div className="sideA  w-1/2 h-full bg-white pt-10 px-32 pb-24 justify-self-center items-center max-lg:hidden">
+       <div className="sideA  w-1/2 h-[100vh] bg-white pt-10 px-32 pb-24 justify-self-center items-center max-lg:hidden">
             <div className='flex flex-col justify-center'>
                 <div className=""> 
                   <img className='' src={Signin} alt=""/>
@@ -36,10 +44,12 @@ const Login = () => {
                   <a href=''>Keep me logged in</a>
                   <a href=''>Forgort password</a>
                 </div>
-                <Loginbutton text="Login"/>
+                <button onClick={handleLogin} className="custom-button w-[400px] mt-9">
+                  Login
+                </button>
             </div>   
        </div>
-       <div className="sideA w-full h-full bg-white pt-10  mb-24 flex-col justify-center hidden max-lg:block fixed">
+       <div className="sideA w-full h-[100vh] bg-white pt-10  mb-24 flex-col justify-center hidden max-lg:block fixed">
             <div className='flex flex-col justify-center items-center'>
                 <div> 
                   <img  className ="w-20 h-20" src={Signin} alt=""/>
@@ -66,10 +76,12 @@ const Login = () => {
                   <a href=''>Keep me logged in</a>
                   <a href=''>Forgort password</a>
                 </div>
-                <Loginbutton text="Login"/>
+                <button onClick={handleLogin} className="custom-button w-[400px] mt-9">
+                  Login
+                </button>
             </div>   
        </div>
-       <div className="sideB w-1/2 h-full max-lg:hidden">
+       <div className="sideB w-1/2 h-[100vh] max-lg:hidden">
        <div className='flex flex-col justify-between items-center  h-full py-[39px]'>
         	<div className='flex text-white mr-[51px] text-lg text-bold gap-1 self-end'>
               <a href="" className='font-semibold'>
