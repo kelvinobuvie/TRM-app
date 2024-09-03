@@ -1,10 +1,10 @@
 import React from 'react'
 
 import { FaTableList } from "react-icons/fa6";
-import Logo from '../assets/Images';
+// import Logo from '../assets/Images';
 import { MdGroups } from 'react-icons/md';
 import { BiBarChartAlt2 } from 'react-icons/bi';
-import { PiNotePencil } from 'react-icons/pi';
+import { PiNotePencil } from 'react-icons/pi'; 
 import { CgNotes } from 'react-icons/cg';
 import { GoDotFill } from 'react-icons/go';
 // import Overview from '../pages/Overview';
@@ -16,9 +16,9 @@ import { NavLink } from 'react-router-dom'
 const Sidebar = () => {
   return (
     <>
-        <div className='sidebar max-lg:hidden flex flex-col justify-between w-[216px] min-h-[100vh] px-4 py-2 hidden:min-lg:block'>
+        <div className='sidebar max-lg:hidden flex flex-col justify-between w-[216px] min-h-full px-4 py- hidden:min-lg:block'>
         <div className='mt-[47px] mb-[42px] w-41 h-14'>
-            <img src={Logo} alt="Leadway assurance" />
+            <img src="/LAC_Logo_Alt 2.png" alt="Leadway assurance" />
         </div>
         <div>
             <span className='px-3 mt-10 mb-8 font-bold text-zinc-500'>TRM</span>
@@ -26,31 +26,31 @@ const Sidebar = () => {
         <div>
         <ul className='mt-3 text-white '>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <NavLink to="/overview" className='px-3'>
+                <NavLink to="/overview" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
                     <BiBarChartAlt2 className='inline-block w-5 h-6 mr-3 -mt-1'></BiBarChartAlt2>
                     Overview
                 </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <NavLink to="/inspections" className='px-3'>
+                <NavLink to="/inspections" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
                     <FaTableList className='inline-block w-5 h-6 mr-3 -mt-1'></FaTableList>
                     Inspections
                 </NavLink>
             </li>
             <li className='mb-3 text-sm hover:text-orange-500 py-2'>
-                <NavLink to="" className='px-3'>
+                <NavLink to="" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
                     <MdGroups className='inline-block w-5 h-6 mr-3 -mt-1'></MdGroups>
                     Personal
                 </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <NavLink to="" className='px-3'>
+                <NavLink to="" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
                     <PiNotePencil className='inline-block w-5 h-6 mr-3 -mt-1'></PiNotePencil>
                     Workshop
                 </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>
-                <NavLink to="" className='px-3'>
+                <NavLink to="" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
                     <CgNotes className='inline-block w-5 h-6 mr-3 -mt-1'></CgNotes>
                     Report
                 </NavLink>

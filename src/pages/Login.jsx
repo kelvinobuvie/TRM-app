@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-// import {Group, Signin} from "../assets/Images"
+// import {Signin} from "../assets/Images"
 import Input from '../components/Input';
 import { LuUser2 } from 'react-icons/lu';
 import { GoLock } from "react-icons/go";
@@ -20,7 +20,7 @@ const Login = () => {
        <div className="sideA  w-1/2 h-[100vh] bg-white pt-10 px-32 pb-24 justify-self-center items-center max-lg:hidden">
             <div className='flex flex-col justify-center'>
                 <div className=""> 
-                  <img className='' src={Signin} alt=""/>
+                  <img className='' src={"/New_Leadway_Logo 1.png"} alt="gggg"/>
                 </div>
                 <div className='mt-5'>
                   <span className='loginTRM text-4xl font-semibold'>TRM Dashboard</span>
@@ -52,7 +52,7 @@ const Login = () => {
        <div className="sideA w-full h-[100vh] bg-white pt-10  mb-24 flex-col justify-center hidden max-lg:block fixed">
             <div className='flex flex-col justify-center items-center'>
                 <div> 
-                  <img  className ="w-20 h-20" src={Signin} alt=""/>
+                  <img  className ="w-20 h-20" src={"/New_Leadway_Logo 1.png"} alt="ggggg"/>
                 </div>
                 <div className='mt-2'>
                   <span className='loginTRM text-3xl font-semibold'>TRM Dashboard</span>
@@ -90,7 +90,7 @@ const Login = () => {
           </div>
           <div className='loginb flex w-[500px] h-[115px] bg-white rounded-md '>
               <div className='py-[20px] px-5 bg-gray-200'>
-                <img className='w-[72px] h-[72px]' src={Group} alt=""/>
+                <img className='w-[72px] h-[72px]' src={"/Group.png"} alt="ggggg"/>
               </div>
               <div className='py-5 pl-[30px]'>
                 <p className='font-bold text-s'>Customer Management</p>

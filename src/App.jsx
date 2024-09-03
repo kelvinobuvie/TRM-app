@@ -28,7 +28,7 @@ const ProtectedLayout = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="flex-grow p-4">
+      <div className="flex-grow">
         {/* This is where different pages will be rendered */}
         {/* <Overview/> */}
         <Outlet />
