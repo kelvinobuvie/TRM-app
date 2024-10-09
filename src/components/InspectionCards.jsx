@@ -25,7 +25,8 @@ const InspectionCards = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-1 sm:items-center lg:grid-cols-4  gap-1 pb-2 pt-8">
+    <a href="">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 pb-2 pt-8">
       {cards.map((card, index) => (
         <div
           key={index}
@@ -48,6 +49,7 @@ const InspectionCards = () => {
         </div>
       ))}
     </div>
+    </a>
   );
 };
 

@@ -5,7 +5,7 @@ import { FaRegBell } from 'react-icons/fa6'
 
 const Inspections = () => {
   return (
-    <div>
+    <div className='lg:ml-56 h-full'>
         <header>
             <nav>
             <div > 
@@ -21,6 +21,9 @@ const Inspections = () => {
             </div>
             </nav>
         </header>
+        <div>
+            
+        </div>
     </div>
   )
 }
