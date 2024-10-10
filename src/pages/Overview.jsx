@@ -3,6 +3,7 @@ import InspectionSummaryCard from "../components/InspectionSummaryCard"
 import DashboardUpdate from "../components/DashboardUpdate"
 import RecentInspections from "../components/RecentInspections"
 import Nav from "../components/Nav"
+import CreateNewInpectionBtn from "../components/CreateNewInpectionBtn"
 
 
 const Overview = () => {
@@ -15,10 +16,8 @@ const Overview = () => {
               <p className="font-normal text-2xl wel-t">Welcome, <span className="font-bold">Olufemi</span></p>
               <p className="mt-3 text-sm font-normal wel-b">Take a look at your dashboard and see all pending tasks</p>
             </div>
-            <div>
-              <button className="bg-orange-500 mt-6 py-2 px-8 text-white font-bold text-xs">
-                + Create New Inspection
-              </button>
+            <div className="mt-6">
+              <CreateNewInpectionBtn/>
             </div>
           </div>
           <div>

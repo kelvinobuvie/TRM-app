@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa6'
 import { FaRegBell } from 'react-icons/fa6'
 import InspectionFilters from '../components/InspectionFilters'
 import InspectionTabs from '../components/InspectionTabs'
+import InspectionList from '../components/InspectionList'
 // import Nav from '../components/Nav'
 
 const Inspections = () => {
@@ -25,7 +26,8 @@ const Inspections = () => {
         </header>
         <div>
             <InspectionFilters/>
-            <InspectionTabs/>  
+            <InspectionTabs/>
+            <InspectionList/>
         </div>
     </div>
   )

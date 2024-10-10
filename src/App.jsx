@@ -4,7 +4,9 @@ import Sidebar from './components/Sidebar';
 import Overview from './pages/Overview';
 import Inspections from './pages/Inspections';
 import Login from './pages/Login';
+import NewInspection from './pages/NewInspection';
 import './App.css';
+import CreateRequest from './pages/CreateRequest';
 
 const App = () => {
   return (
@@ -17,6 +19,9 @@ const App = () => {
         <Route path='/' element={<ProtectedLayout />}>
           <Route path='overview' element={<Overview />} />
           <Route path='inspections' element={<Inspections />} />
+          <Route path='NewInspection' element={<NewInspection />} />
+          <Route path='CreateRequest' element={<CreateRequest/>} />
+
         </Route>
         
         {/* Redirect to login on invalid routes */}

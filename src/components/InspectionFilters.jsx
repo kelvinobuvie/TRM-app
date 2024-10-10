@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 
 const InspectionFilters = () => {
   return (
-    <div className='p-4 flex flex-wrap gap-1'>
+    <div className='p-4 flex flex-wrap gap-1 text-xs lg:text-sm'>
         <div className='flex border border-gray-300 rounded-lg p-2 gap-2 w-[295px]'>
             <CiSearch className='w-4 h-5 mt-1 text-gray-500' />
             <input type="text" className='outline-none w-[295px]'
