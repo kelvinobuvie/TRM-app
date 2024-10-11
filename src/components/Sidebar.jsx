@@ -38,9 +38,9 @@ const Sidebar = () => {
                 </NavLink>
             </li>
             <li className='mb-3 text-sm hover:text-orange-500 py-2'>
-                <NavLink to="" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
+                <NavLink to="/personnel" className={({ isActive }) => (isActive ? 'text-orange-500 px-3' : 'text-white px-3')}>
                     <MdGroups className='inline-block w-5 h-6 mr-3 -mt-1'></MdGroups>
-                    Personal
+                    Personnel
                 </NavLink>
             </li>
             <li className='mb-3 text-sm gap-5 hover:text-orange-500 py-2'>

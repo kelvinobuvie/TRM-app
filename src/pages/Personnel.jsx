@@ -2,7 +2,9 @@ import React from 'react'
 
 const Personnel = () => {
   return (
-    <div>Personnel</div>
+    <div className='lg:ml-56 h-full'>
+        gggsgxshsssss
+    </div>
   )
 }
 

@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import NewInspection from './pages/NewInspection';
 import './App.css';
 import CreateRequest from './pages/CreateRequest';
+import Personnel from './pages/Personnel';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/' element={<ProtectedLayout />}>
           <Route path='overview' element={<Overview />} />
           <Route path='inspections' element={<Inspections />} />
+          <Route path='personnel' element={<Personnel/>} />
           <Route path='NewInspection' element={<NewInspection />} />
           <Route path='CreateRequest' element={<CreateRequest/>} />
 
