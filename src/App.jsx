@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Route, Routes, Navigate, Outlet } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Overview from './pages/Overview';
@@ -11,6 +12,7 @@ import Personnel from './pages/Personnel';
 import Workshop from './pages/Workshop';
 import Report from './pages/Report';
 
+
 const App = () => {
   return (
     <Router>
@@ -19,8 +21,9 @@ const App = () => {
         <Route path='/login' element={<Login replace/>} />
         
         {/* Protected routes */}
-        <Route path='/' element={<ProtectedLayout/>}>
-        <Route index element={<Navigate to='overview' replace />} />
+          <Route path='/' element={<ProtectedLayout/>}>
+          <Route index element={<Navigate to='login' replace />} />
+          <Route path='login' element={<Login />} />
           <Route path='overview' element={<Overview />} />
           <Route path='inspections' element={<Inspections />} />
           <Route path='personnel' element={<Personnel/>} />
@@ -44,7 +47,7 @@ const ProtectedLayout = () => {
       <Sidebar />
       <div className="flex-grow">
         {/* Outlet for nested routes */}
-        <Outlet />
+        <Outlet/>
       </div>
     </div>
   );

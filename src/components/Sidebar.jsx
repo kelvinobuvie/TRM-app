@@ -16,7 +16,7 @@ import { NavLink } from 'react-router-dom'
 const Sidebar = () => {
   return (
     <>
-        <div className='sidebar max-lg:hidden flex flex-col w-[216px] h- px-4 hidden:min-lg:block overflow-auto h-screen mt-0 fixed overflow-y-auto'>
+        <div className={`sidebar active max-lg:hidden flex flex-col w-[216px] h- px-4 hidden:min-lg:block overflow-auto h-screen mt-0 fixed overflow-y-auto`}>
         <div className='mt-[47px] mb-[42px] w-41 h-14'>
             <img src="/LAC_Logo_Alt 2.png" alt="Leadway assurance" />
         </div>
@@ -69,8 +69,7 @@ const Sidebar = () => {
                 <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-white'>Marine</span></a></li>
             </ul>
         </div>
-    </div>
-    
+        </div>
     </>
 
     

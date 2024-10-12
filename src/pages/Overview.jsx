@@ -8,8 +8,8 @@ import CreateNewInpectionBtn from "../components/CreateNewInpectionBtn"
 
 const Overview = () => {
   return (
-    <div className="lg:ml-56 h-full">
-        <Nav />
+    <div className={`lg:ml-56 h-full`}>
+        <Nav/>
         <div className="mt-7 px-9">
           <div className="grid lg:flex justify-between">
             <div>
@@ -28,7 +28,7 @@ const Overview = () => {
             <DashboardUpdate/>
           </div>
           <div className="mt-8">
-            {/* <RecentInspections/> */}
+            <RecentInspections/>
           </div>
         </div>
         

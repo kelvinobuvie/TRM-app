@@ -128,8 +128,8 @@ const InspectionList = () => {
                         <td className="border-b p-4">{inspection.method}</td>
                         <td className="border-b p-4">{inspection.officer}</td>
                         <td className="border-b p-4">
-                            <a href="#">
-                                <span className={`px-3 py-1 rounded-md text-sm font-semibold ${inspection.statusColor}`}>
+                            <a className='hover:cursor-pointer'>
+                                <span className={`px-3 py-1 rounded-md text-xs font-semibold ${inspection.statusColor}`}>
                                 {inspection.status}
                                 </span>
                             </a>
