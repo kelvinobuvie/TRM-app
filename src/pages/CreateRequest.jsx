@@ -4,9 +4,18 @@ import { FaRegBell } from 'react-icons/fa6'
 import { IoCloseOutline } from "react-icons/io5";
 import SelectClass from '../components/SelectClass';
 import InspectionForm from '../components/InspectionForm';
+import { useNavigate } from 'react-router-dom';
+
 
 const CreateRequest = () => {
+    
+        const navigate = useNavigate();
+    
+        const Redirect = () => {
+        navigate('/NewInspection')}
+      
   return (
+    
     // <div className='lg:ml-56'>
     //     dddddd
     // </div>
@@ -31,10 +40,10 @@ const CreateRequest = () => {
                 <div className='flex justify-between'>
                     <div className=''>
                         <p className='text-xl font-semibold text-blue-950'>Create New Inspection</p>
-                        <p className='text-sm'>See all inspections across all classes</p>
+                        <p className='text-sm' >See all inspections across all classes</p>
                     </div>
                     <div className='text-center'>
-                        <a href="/NewInspection" className='text-sm text-gray-500'><span className='font-semibold text-xl'>&lt; </span>Back to create request</a>
+                        <button onClick={Redirect} className='text-sm text-gray-500'><span className='font-semibold text-xl'>&lt; </span>Back to create request</button>
                     </div>
                 </div>
                 <div className='mt-9 p-8 border-t border-r rounded-md h-screen overflow-y-auto'>

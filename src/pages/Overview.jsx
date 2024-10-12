@@ -28,7 +28,7 @@ const Overview = () => {
             <DashboardUpdate/>
           </div>
           <div className="mt-8">
-            <RecentInspections/>
+            {/* <RecentInspections/> */}
           </div>
         </div>
         
