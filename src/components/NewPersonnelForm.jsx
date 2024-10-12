@@ -20,25 +20,25 @@ const NewPersonnelForm = () => {
                     <div className='grid gap-2 mt-8'>
                         <p className='text-xs'>First Name</p>
                         <input className='border rounded-sm border-gray-400 py-2 px-4 outline-none lg:w-full'
-                            placeholder='123456789'   
+                            placeholder=''   
                         />
                     </div>
                     <div className='grid gap-2 mt-8'>
                         <p className='text-xs'>Last Name</p>
                         <input className='border rounded-sm border-gray-400 py-2 px-4 outline-none lg:w-full '
-                            placeholder='123456789'   
+                            placeholder=''   
                         />
                     </div>
                     <div className='grid gap-2 mt-8'>
                         <p className='text-xs'>Phone Number</p>
                         <input className='border rounded-sm border-gray-400 py-2 px-4 outline-none lg:w-full '
-                            placeholder='123456789'   
+                            placeholder=''   
                         />
                     </div>
                     <div className='grid gap-2 mt-8'>
                         <p className='text-xs'>Email Address</p>
                         <input className='border rounded-sm border-gray-400 py-2 px-4 outline-none lg:w-full'
-                            placeholder='123456789'   
+                            placeholder=''   
                         />
                     </div>
                 </div>

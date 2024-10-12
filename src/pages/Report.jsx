@@ -6,6 +6,7 @@ import InspectionTabs from '../components/InspectionTabs'
 import InspectionList from '../components/InspectionList'
 import CreateNewInpectionBtn from '../components/CreateNewInpectionBtn'
 import Nav from '../components/Nav'
+import CreateReportBtn from '../components/CreateReportbtn'
 // import Nav from '../components/Nav'
 
 const Inspections = () => {
@@ -20,7 +21,7 @@ const Inspections = () => {
             <div className='mt-5 border h-screen rounded-sm grid justify-center items-center'>
                 <div className='grid gap-3'>
                   <div className='flex justify-center'><p>No item available</p></div>
-                  <div><CreateNewInpectionBtn/></div>
+                  <div><CreateReportBtn/></div>
                 </div>
             </div>
           </div>
