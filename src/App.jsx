@@ -8,6 +8,8 @@ import NewInspection from './pages/NewInspection';
 import './App.css';
 import CreateRequest from './pages/CreateRequest';
 import Personnel from './pages/Personnel';
+import Workshop from './pages/Workshop';
+import Report from './pages/Report';
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
           <Route path='overview' element={<Overview />} />
           <Route path='inspections' element={<Inspections />} />
           <Route path='personnel' element={<Personnel/>} />
+          <Route path='workshop' element={<Workshop/>} />
+          <Route path='report' element={<Report/>} />
           <Route path='NewInspection' element={<NewInspection />} />
           <Route path='CreateRequest' element={<CreateRequest/>} />
 

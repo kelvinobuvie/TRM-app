@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RecentInspections = () => {
+const WorkshopList = () => {
     const inspections = [
         {
           id: 10321,
@@ -55,11 +55,8 @@ const RecentInspections = () => {
       ];
     
       return (
-        <div className="mt-2 p-4 bg-white rounded-lg shadow-md h-64 overflow-y-auto">
-          <div className='flex justify-between  py-4'>
-            <span className='text-sm font-semibold'>Recent Inspections</span>
-            <a href="/inspections" className="text-xs text-orange-500 font-medium inline-block hover:underline">View all</a>
-          </div>
+        <div className="mt-2 p-4 border bg-white rounded-lg shadow-md h-80 overflow-y-auto">
+          
           <table className="min-w-full bg-white border-collapse text-xs">
             <thead className='text-gray-500'>
               <tr>
@@ -91,10 +88,9 @@ const RecentInspections = () => {
               ))}
             </tbody>
           </table>
-          
         </div>
       );
     };
 
 
-export default RecentInspections
+export default WorkshopList
