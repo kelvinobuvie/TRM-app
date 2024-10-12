@@ -19,7 +19,8 @@ const App = () => {
         <Route path='/login' element={<Login replace/>} />
         
         {/* Protected routes */}
-        <Route path='/' element={<ProtectedLayout />}>
+        <Route path='/' element={<ProtectedLayout/>}>
+        <Route index element={<Navigate to='overview' replace />} />
           <Route path='overview' element={<Overview />} />
           <Route path='inspections' element={<Inspections />} />
           <Route path='personnel' element={<Personnel/>} />
