@@ -5,7 +5,7 @@ const GeneratePersonnelBtn = () => {
   const navigate = useNavigate();
 
   const Redirect = () => {
-  navigate('/CreatePersonnel')
+  navigate('/Personnel')
   }
   return (
     <div className=''>

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 const GenerateBtn = () => {
   const navigate = useNavigate();
         const Redirect = () => {
-        navigate('/CreateRequest')
+        navigate('/NewInspection')
     }
   return (
     <div>
