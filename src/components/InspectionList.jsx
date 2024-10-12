@@ -119,7 +119,7 @@ const InspectionList = () => {
             </thead>
             <tbody>
                 {inspections.map((inspection, index) =>
-                    <tr className='text-xs lg:text-sm' key={index}>
+                    <tr className='text-xs' key={index}>
                         <td className='border-b p-4 text-left'>{inspection.id}</td>
                         <td className='border-b p-4 text-left'>{inspection.date}</td>
                         <td className='border-b p-4 text-left'>{inspection.name}</td>
