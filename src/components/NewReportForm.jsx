@@ -3,7 +3,7 @@ import React from 'react'
 const NewReportForm = () => {
   return (
     <div className='grid gap-3 lg:flex w-full'>
-        <div className='border-l-2 border-b-2 border-r shadow-md px-8 pt-8 pb-4 w-[50%] lg:h-screen'>
+        <div className='border-l-2 border-b-2 border-r shadow-md px-8 pt-8 pb-4 w-[100%] lg:w-[50%] lg:h-screen'>
             <div className=''>
                 <p className='font-bold text-blue-950 text-sm'>Select a category</p>
                 <div className='border text-xs mt-3 border-gray-300 rounded-lg p-2 outline-none'>
