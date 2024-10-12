@@ -1,5 +1,6 @@
 import React from 'react'
 import { CiSearch } from "react-icons/ci";
+import DateRange from './DateRange';
 
 const InspectionFilters = () => {
   return (

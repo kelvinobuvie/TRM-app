@@ -8,9 +8,9 @@ import CreateNewInpectionBtn from "../components/CreateNewInpectionBtn"
 
 const Overview = () => {
   return (
-    <div className={`lg:ml-56 h-full`}>
-        <Nav/>
-        <div className="mt-7 px-9">
+    <div className={`lg:ml-56 h-full p-4`}>
+        <Nav title="Dashboard"/>
+        <div className="mt-7 ">
           <div className="grid lg:flex justify-between">
             <div>
               <p className="font-normal text-2xl wel-t">Welcome, <span className="font-bold">Olufemi</span></p>

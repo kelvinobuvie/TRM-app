@@ -11,6 +11,7 @@ import CreateRequest from './pages/CreateRequest';
 import Personnel from './pages/Personnel';
 import Workshop from './pages/Workshop';
 import Report from './pages/Report';
+import CreateNewPersonnel from './pages/CreateNewPersonnel';
 
 
 const App = () => {
@@ -31,6 +32,9 @@ const App = () => {
           <Route path='report' element={<Report/>} />
           <Route path='NewInspection' element={<NewInspection />} />
           <Route path='CreateRequest' element={<CreateRequest/>} />
+          <Route path='CreatePersonnel' element={<CreateNewPersonnel/>} />
+
+          
 
         </Route>
         

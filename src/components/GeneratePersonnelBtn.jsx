@@ -1,19 +1,19 @@
 import React from 'react'
 import { useNavigate } from 'react-router';
 
-const CreateNewPersonnelBtn = () => {
+const GeneratePersonnelBtn = () => {
   const navigate = useNavigate();
 
   const Redirect = () => {
   navigate('/CreatePersonnel')
   }
   return (
-    <div>
+    <div className=''>
         <button onClick={Redirect} className="bg-orange-500 py-2 px-8 text-white font-bold text-xs">
-            Create Personnel
+            Genate
         </button>
     </div>
   )
 }
 
-export default CreateNewPersonnelBtn
+export default GeneratePersonnelBtn

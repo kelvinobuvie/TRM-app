@@ -9,25 +9,12 @@ import { FaRegBell } from 'react-icons/fa6'
 import CreateNewWorkshopBtn from '../components/CreateNewWorkshopBtn'
 import WorkshopFilters from '../components/WorkshopFilters'
 import WorkshopList from '../components/WorkshopList'
+import Nav from '../components/Nav'
 
 const Workshop = () => {
   return (
       <div className="lg:ml-56 h-full p-4">
-        <header>
-            <nav>
-            <div > 
-                <div className='nav mt-6 flex justify-between'>
-                <div className='flex items-center text-xl'>
-                    <FaBars className=' text-gray-600 me-4 hidden max-lg:block w-6 h-6 mb-3'/>
-                    <span className='text-gray-600 font-semibold mb-3'>Workshop</span>
-                </div>
-                <div className='flex items-center gap-x-5'>
-                    <FaRegBell className=' notify w-6 h-6 mb-3'/>
-                </div>
-                </div>
-            </div>
-            </nav>
-        </header>
+        <Nav title={"Workshop"} />
         <div className="mt-5">
           <div className="grid gap-2 lg:flex justify-between">
             <div>
