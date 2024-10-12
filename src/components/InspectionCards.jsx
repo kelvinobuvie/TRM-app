@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const InspectionCards = () => {
   const cards = [
@@ -23,9 +24,13 @@ const InspectionCards = () => {
       note: "",
     },
   ];
+  const navigate = useNavigate();
+        const Redirect = () => {
+        navigate('/inspections')
+    }
 
   return (
-    <a href="/inspections">
+    <a onClick={Redirect} className="hover:cursor-pointer">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 pb-2 pt-8">
       {cards.map((card, index) => (
         <div
