@@ -1,4 +1,4 @@
-import InspectionCards from "../components/Inspectioncards"
+import InspectionCards from "../components/InspectionCards"
 import InspectionSummaryCard from "../components/InspectionSummaryCard"
 import DashboardUpdate from "../components/DashboardUpdate"
 import RecentInspections from "../components/RecentInspections"
