@@ -15,15 +15,15 @@ const InspectionSummaryCard = () => {
             <div>
             <ul className='mb-3 mt-4 text-sm gap-4'>
                 <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-gray-700'>Marine</span></a></li>
-                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-gray-700'>Marine</span></a></li>
-                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-gray-700'>Marine</span></a></li>
+                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-orange-700'></GoDotFill><span className='text-gray-700'>Motor</span></a></li>
+                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-green-700'></GoDotFill><span className='text-gray-700'>Agric</span></a></li>
             </ul>
             </div>
             <div>
             <ul className='mb-3 mt-4 text-sm gap-5'>
-                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-gray-700'>Marine</span></a></li>
-                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-gray-700'>Marine</span></a></li>
-                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-purple-700'></GoDotFill><span className='text-gray-700'>Marine</span></a></li>
+                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-red-700'></GoDotFill><span className='text-gray-700'>Engineering</span></a></li>
+                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-blue-700'></GoDotFill><span className='text-gray-700'>Property</span></a></li>
+                <li className='mb-2 text-sm'><a href="#"><GoDotFill className='inline-block w-3 h-3 mr-2 -mt-1 text-yellow-700'></GoDotFill><span className='text-gray-700'>Bond</span></a></li>
             </ul>
             </div>
         </div>

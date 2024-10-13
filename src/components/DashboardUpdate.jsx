@@ -23,7 +23,7 @@ const DashboardUpdate = () => {
             </div>
         </div>
         <div className='flex justify-between mx-4 py-6 border-b-2'>
-            <div className='flex'>
+            <div className='flex gap-2'>
                 <div className='w-7 h-7'>
                     <img src="/notification.png" alt="notification" />
                 </div>
@@ -37,7 +37,7 @@ const DashboardUpdate = () => {
             </div>
         </div>
         <div className='flex justify-between mx-4 py-6 border-b-2'>
-            <div className='flex'>
+            <div className='flex gap-2'>
                 <div className='w-7 h-7'>
                     <img src="/notification.png" alt="notification" />
                 </div>
@@ -51,7 +51,7 @@ const DashboardUpdate = () => {
             </div>
         </div>
         <div className='flex justify-between mx-4 py-6 border-b-2'>
-            <div className='flex'>
+            <div className='flex gap-2'>
                 <div className='w-7 h-7'>
                     <img src="/notification.png" alt="notification" />
                 </div>

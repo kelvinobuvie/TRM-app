@@ -24,7 +24,7 @@ const CreateNewPersonnel = () => {
         <div className=''>
            <div className=''>
                 <div className='flex justify-between'>
-                    <div className=''>
+                    <div className='mt-6'>
                         <p className='text-xl font-semibold text-blue-950'>Create a new report</p>
                         <p className='text-sm' >Create report from your dashboard data</p>
                     </div>

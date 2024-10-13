@@ -16,7 +16,7 @@ const NewInspection = () => {
     }
 
   return (
-    <div className='lg:ml-56 h-full'>
+    <div className='lg:ml-56 h-full p-4'>
         <Nav title={"Inspections"}/>
         <div className='flex justify-between'>
             <div className='p-4'>
