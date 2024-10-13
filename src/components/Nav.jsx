@@ -47,7 +47,7 @@ const Nav = ({ title }) => {
       <header>
         <nav>
           <div> 
-            <div className='nav mt-6 flex justify-between'>
+            <div className='nav mt-6  flex justify-between'>
               <div className="">
                 <div className='flex center text-xl'>
                   {/* Toggle Button for Sidebar */}

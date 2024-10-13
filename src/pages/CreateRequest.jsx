@@ -20,7 +20,7 @@ const CreateRequest = () => {
     // <div className='lg:ml-56'>
     //     dddddd
     // </div>
-    <div className='lg:ml-56 h-full'>
+    <div className='lg:ml-56 h-full p-4'>
         <Nav title={"Inspections"}/>
         <div className='p-4'>
            <div className='p-8'>
