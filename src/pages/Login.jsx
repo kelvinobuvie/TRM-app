@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <div className='flex w-full box-content justify-center'>
        <div className="sideA1  w-full h-screen bg-white pt-10 px-32 py-24 justify-self-center items-center max-lg:hidden">
-            <div className='flex flex-col justify-center py-'>
+            <div className='flex flex-col justify-center items-center py-8'>
                 <div className=""> 
                   <img className='' src="/New_Leadway_Logo 1.png" alt="gggg"/>
                 </div>
@@ -49,7 +49,7 @@ const Login = () => {
                 </button>
             </div>   
        </div>
-       <div className="sideA2 w-full h-screen bg-white pt-10  mb-24 flex-col justify-center hidden max-lg:block fixed">
+       <div className="sideA2 w-full h-screen bg-white pt-10  mb-24 flex-col justify-center items hidden max-lg:block fixed">
             <div className='flex flex-col justify-center items-center'>
                 <div> 
                   <img  className ="w-20 h-20" src={"/New_Leadway_Logo 1.png"} alt="ggggg"/>

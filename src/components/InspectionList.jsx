@@ -103,7 +103,7 @@ const InspectionList = () => {
 
     ]
   return (
-    <div className='p-4 h-screen overflow-y-auto border shadow-md rounded-lg'>
+    <div className='p-4 h-screen w- screen overflow-y-auto  border shadow-md rounded-lg'>
         <table className='min-w-full border-collapse'>
             <thead>
                 <tr className='text-xs lg:text-sm text-gray-400 font-medium'>
