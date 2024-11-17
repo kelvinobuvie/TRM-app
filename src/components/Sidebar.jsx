@@ -18,7 +18,7 @@ const Sidebar = () => {
     <>
         <div className={`sidebar active max-lg:hidden flex flex-col w-[216px] h- px-4  py-2 hidden:min-lg:block h-screen mt-0 fixed`}>
         <div className='mt-[47px] mb-[42px] w-41 h-14'>
-            <img src="/LAC_Logo_Alt 2.png" alt="Leadway assurance" />
+            <img src="" alt="TRM" />
         </div>
         <div>
             <span className='px-3 mt-10 mb-8 font-bold text-zinc-500'>TRM</span>

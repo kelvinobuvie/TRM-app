@@ -20,7 +20,7 @@ const Login = () => {
        <div className="sideA1  w-full h-screen bg-white pt-10 px-32 py-24 justify-self-center items-center max-lg:hidden">
             <div className='flex flex-col justify-center items-center py-8'>
                 <div className=""> 
-                  <img className='' src="/New_Leadway_Logo 1.png" alt="gggg"/>
+                  <img className='' src="" alt="TRM"/>
                 </div>
                 <div className='mt-5'>
                   <span className='loginTRM text-4xl font-semibold'>TRM Dashboard</span>
@@ -52,7 +52,7 @@ const Login = () => {
        <div className="sideA2 w-full h-screen bg-white pt-10  mb-24 flex-col justify-center items hidden max-lg:block fixed">
             <div className='flex flex-col justify-center items-center'>
                 <div> 
-                  <img  className ="w-20 h-20" src={"/New_Leadway_Logo 1.png"} alt="ggggg"/>
+                  <img  className ="w-20 h-20" src={""} alt="TRM"/>
                 </div>
                 <div className='mt-2'>
                   <span className='loginTRM text-3xl font-semibold'>TRM Dashboard</span>
