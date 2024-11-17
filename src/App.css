@@ -88,7 +88,7 @@ nav{
   }
 
   .sideB{
-        background-image: url('../src/assets/Images/Mask\ Group.png'); /* Adjust the path to your image */
+        background-image: url('/Mask Group.png'); /* Adjust the path to your image */
         background-size: cover;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Prevent tiling */

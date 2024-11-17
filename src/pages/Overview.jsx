@@ -23,7 +23,7 @@ const Overview = () => {
           <div>
             <InspectionCards/>
           </div>
-          <div className=" grid gap-2 lg:flex sm:grid"> 
+          <div className="grid gap-2 lg:flex sm:grid"> 
             <InspectionSummaryCard/>
             <DashboardUpdate/>
           </div>

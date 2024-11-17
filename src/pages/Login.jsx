@@ -24,7 +24,7 @@ const Login = () => {
                 </div>
                 <div className='mt-5'>
                   <span className='loginTRM text-4xl font-semibold'>TRM Dashboard</span>
-                  <p className='text-sm wp mt-2 '>Welcome. Login to your account</p>
+                  <p className='text-sm wp mt-2'>Welcome. Login to your account</p>
                 </div>
                 <div className="form mt-3">
                 <Input

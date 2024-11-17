@@ -23,7 +23,7 @@ const App = () => {
         <Route path='/login' element={<Login replace/>} />
         
         {/* Protected routes */}
-          <Route path='/' element={<ProtectedLayout/>}>
+        <Route path='/' element={<ProtectedLayout/>}>
           <Route index element={<Navigate to='login' replace />} />
           <Route path='login' element={<Login />} />
           <Route path='overview' element={<Overview />} />
@@ -35,7 +35,6 @@ const App = () => {
           <Route path='CreateRequest' element={<CreateRequest/>} />
           <Route path='CreatePersonnel' element={<CreateNewPersonnel/>} />
           <Route path='CreateReport' element={<CreateReport/>} />
-
         </Route>
         
         {/* Redirect to login on invalid routes */}
