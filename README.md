@@ -40,8 +40,8 @@ The project is deployed on Netlify. You can view it live [here](https://trmleadw
 
 # Screenshots
 <div style="dislplay:flex;">
-<img width="400" alt="Screenshot 2023-07-23 034832" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/Hero.png">
-<img width="400" alt="Screenshot 2023-07-23 034929" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/top%20sales%20.png">
+<img width="400" alt="Screenshot 2023-07-23 034832" src="https://github.com/kelvinobuvie/TRM-app/blob/main/src/assets/Images/Login%20page.png">
+<img width="400" alt="Screenshot 2023-07-23 034929" src="https://github.com/kelvinobuvie/TRM-app/blob/main/src/assets/Images/Dashboard%20overview.png">
 <img width="400" alt="Screenshot 2023-07-23 035003" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/top%20beauty.png">
 <img width="400" alt="Screenshot 2023-07-23 035003" src="https://github.com/kelvinobuvie/Ministore/blob/main/src/assets/footer.png">
 </div>
