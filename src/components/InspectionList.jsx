@@ -111,8 +111,8 @@ const InspectionList = () => {
                     <th className='border-b p-4 text-left'>Date Created</th>
                     <th className='border-b p-4 text-left'>Name</th>
                     <th className='border-b p-4 text-left'>Class</th>
-                    <th className='border-b p-4 text-left hidden lg:block'>Location</th>
-                    <th className='border-b p-4 text-left hidden lg:block'>Method</th>
+                    <th className='border-b p-4 text-left'>Location</th>
+                    <th className='border-b p-4 text-left'>Method</th>
                     <th className='border-b p-4 text-left'>Officer</th>
                     <th className='border-b p-4 text-left'>Status</th>
                 </tr>
@@ -124,8 +124,8 @@ const InspectionList = () => {
                         <td className='border-b p-4 text-left'>{inspection.date}</td>
                         <td className='border-b p-4 text-left'>{inspection.name}</td>
                         <td className='border-b p-4 text-left'><GoDotFill className={`inline-block w-3 h-3 mr-2 -mt-1 ${inspection.classColor}`}></GoDotFill>{inspection.class}</td>
-                        <td className="border-b p-4 hidden lg:block">{inspection.location}</td>
-                        <td className="border-b p-4 hidden lg:block">{inspection.method}</td>
+                        <td className="border-b p-4">{inspection.location}</td>
+                        <td className="border-b p-4 ">{inspection.method}</td>
                         <td className="border-b p-4">{inspection.officer}</td>
                         <td className="border-b p-4">
                             <a className='hover:cursor-pointer'>
